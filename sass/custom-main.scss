@@ -1,7 +1,40 @@
 //Custom variables
-$primary: orange;
+// Customize the colours here or delete to keep as default
+$primary:       green;
+$secondary:     orange;
+/*$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;*/
 
-//Import bootstrap
+//custom added colouus
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+$custom-theme-colors: (
+  "altblue":    blue,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//custom fonts
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+//Set bootstap default to poppins font
+$font-family-sans-serif: "Poppins", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+//custom variables with other fonts
+$font-family-custom-accent: "Anonymous Pro";
+
+$font-family-custom-headings: "Lilita One";
+
+//Import bootstrap -- all variables must be above this
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+//Set headings to use heading font
+h1, h2, h3, h4, h5, h6{
+    font-family: $font-family-custom-headings 
+}
