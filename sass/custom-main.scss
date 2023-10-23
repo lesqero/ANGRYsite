@@ -1,7 +1,7 @@
 //Custom variables
 // Customize the colours here or delete to keep as default
-$primary:       green;
-$secondary:     orange;
+$primary:       #cc5013;
+$secondary:     #19947f;
 /*$success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -27,7 +27,21 @@ $font-family-sans-serif: "Poppins", -apple-system, system-ui, BlinkMacSystemFont
 //custom variables with other fonts
 $font-family-custom-accent: "Anonymous Pro";
 
-$font-family-custom-headings: "Lilita One";
+$font-family-custom-headings: "Anonymous Pro";
+
+// Settings for the `<body>` element.
+
+$body-text-align:           null !default;
+$body-color:                $gray-900 !default;
+$body-bg:                   $white !default;
+
+$body-secondary-color:      rgba($body-color, .75) !default;
+$body-secondary-bg:         #EDDBA5;
+
+$body-tertiary-color:       rgba($body-color, .5) !default;
+$body-tertiary-bg:          $gray-100 !default;
+
+$body-emphasis-color:       $black !default;
 
 //Import bootstrap -- all variables must be above this
 @import "../node_modules/bootstrap/scss/bootstrap";
