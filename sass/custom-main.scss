@@ -2,18 +2,29 @@
 // Customize the colours here or delete to keep as default
 $primary:       #cc5013;
 $secondary:     #19947f;
+$tertiary:      #f6b609;
 /*$success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;*/
+$danger:        $red !default;*/
+$light:         #7ab84a;
+$neutral-b:     #57a5d1;
+$dark:          #a86f9f;
+$earth_a:       #705237;
+$earth_b:       #996a41;
+$earth_c:       #af8765;
+$muted_y:       #eddba5;
 
 //custom added colouus
 @import "../node_modules/bootstrap/scss/_functions";
 @import "../node_modules/bootstrap/scss/_variables";
 $custom-theme-colors: (
-  "altblue":    blue,
+  "tertiary":    $tertiary,
+  "neutral_b":   $neutral_b,
+  "earth_a":     $earth_a,
+  "earth_b":     $earth_b,
+  "earth_c":     $earth_c,
+  "muted_y":     $muted_y,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
@@ -28,20 +39,6 @@ $font-family-sans-serif: "Poppins", -apple-system, system-ui, BlinkMacSystemFont
 $font-family-custom-accent: "Anonymous Pro";
 
 $font-family-custom-headings: "Anonymous Pro";
-
-// Settings for the `<body>` element.
-
-$body-text-align:           null !default;
-$body-color:                $gray-900 !default;
-$body-bg:                   $white !default;
-
-$body-secondary-color:      rgba($body-color, .75) !default;
-$body-secondary-bg:         #EDDBA5;
-
-$body-tertiary-color:       rgba($body-color, .5) !default;
-$body-tertiary-bg:          $gray-100 !default;
-
-$body-emphasis-color:       $black !default;
 
 //Import bootstrap -- all variables must be above this
 @import "../node_modules/bootstrap/scss/bootstrap";
