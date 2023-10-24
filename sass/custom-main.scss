@@ -14,6 +14,7 @@ $earth_a:       #705237;
 $earth_b:       #996a41;
 $earth_c:       #af8765;
 $muted_y:       #eddba5;
+$beige_a:       #e3dcc0;
 
 //custom added colouus
 @import "../node_modules/bootstrap/scss/_functions";
@@ -25,6 +26,7 @@ $custom-theme-colors: (
   "earth_b":     $earth_b,
   "earth_c":     $earth_c,
   "muted_y":     $muted_y,
+  "beige_a":     $beige_a,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);

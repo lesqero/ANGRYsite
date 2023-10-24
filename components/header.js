@@ -5,41 +5,18 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
-            <div class="container-fluid">
-            <a class="navbar-brand h1" href="#" style="font-size: 40px">ANGRY</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarsExample04">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                </ul>
-                <form role="search">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                </form>
-            </div>
-            </div>
-        </nav>
-        </header>
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-earth_c">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4"><img src="img/header/angryhomebutton.png" style="max-height: 90px;"/></span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link"><img src="img/header/aboutButton.png" style="max-height: 60px;"/></a></li>
+        <li class="nav-item"><a href="#" class="nav-link"><img src="img/header/updatesButton.png" style="max-height: 60px;"/></a></li>
+        <li class="nav-item"><a href="#" class="nav-link"><img src="img/header/contactButton.png" style="max-height: 60px;"/></a></li>
+      </ul>
+    </header>
       `;
     }
   }
