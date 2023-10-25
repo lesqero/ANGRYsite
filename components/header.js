@@ -27,19 +27,19 @@ class Header extends HTMLElement {
 
 
         <div class="col-auto d-md-none">
-          <a href="#" class="nav-link"><img src="img/header/angryhomebutton.png" class="mx-auto d-block" style="max-height: 90px;"/></a>
+          <a href="index.html" class="nav-link"><img src="img/header/angryhomebutton.png" class="mx-auto d-block" style="max-height: 90px;"/></a>
         </div>
 
         <div class="container">
           <div class="row">
             <div class="col py-3 px-1 d-md-none">
-              <a href="#" class="nav-link"><img src="img/header/aboutButton.png" style=" max-width: 100%;"/></a>
+              <a href="about.html" class="nav-link"><img src="img/header/aboutButton.png" style=" max-width: 100%;"/></a>
             </div>
             <div class="col py-3 px-1 d-md-none">
-              <a href="#" class="nav-link"><img src="img/header/updatesButton.png" style="max-width: 100%;"/></a>
+              <a href="updates.html" class="nav-link"><img src="img/header/updatesButton.png" style="max-width: 100%;"/></a>
             </div>
             <div class="col py-3 px-1 d-md-none">
-              <a href="#" class="nav-link"><img src="img/header/contactButton.png" style=" max-width: 100%;"/></a>
+              <a href="contact.html" class="nav-link"><img src="img/header/contactButton.png" style=" max-width: 100%;"/></a>
             </div>
           </div>
         </div>
