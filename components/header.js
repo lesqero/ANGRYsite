@@ -9,19 +9,19 @@ class Header extends HTMLElement {
       <header class="container-fluid bg-earth_c">
         <div class="row">
             <div class="col-auto d-none d-md-inline">
-                <a href="#" class="nav-link"><img src="img/header/angryhomebutton.png" style="max-height: 90px;"/></a>
+                <a href="index.html" class="nav-link"><img src="img/header/angryhomebutton.png" style="max-height: 90px;"/></a>
             </div>
             <div class="col d-none d-md-inline">
                 
             </div>
             <div class="col-auto py-3 px-1 d-none d-md-inline">
-                <a href="#" class="nav-link"><img src="img/header/aboutButton.png" style="max-height: 60px;"/></a>
+                <a href="about.html" class="nav-link"><img src="img/header/aboutButton.png" style="max-height: 60px;"/></a>
             </div>
             <div class="col-auto py-3 px-1 d-none d-md-inline">
-                <a href="#" class="nav-link"><img src="img/header/updatesButton.png" style="max-height: 60px;"/></a>
+                <a href="updates.html" class="nav-link"><img src="img/header/updatesButton.png" style="max-height: 60px;"/></a>
            </div>
            <div class="col-auto py-3 px-1 d-none d-md-inline">
-                <a href="#" class="nav-link"><img src="img/header/contactButton.png" style="max-height: 60px;"/></a>
+                <a href="contact.html" class="nav-link"><img src="img/header/contactButton.png" style="max-height: 60px;"/></a>
            </div>
         </div>
 
