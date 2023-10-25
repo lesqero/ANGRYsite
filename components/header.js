@@ -11,19 +11,34 @@ class Header extends HTMLElement {
             <div class="col-auto">
                 <a href="#" class="nav-link"><img src="img/header/angryhomebutton.png" style="max-height: 90px;"/></a>
             </div>
-            <div class="col-md">
+            <div class="col d-none d-md-inline">
                 
             </div>
-            <div class="col-auto py-3 px-1 align-items-center">
+            <div class="col-auto py-3 px-1 d-none d-md-inline">
                 <a href="#" class="nav-link"><img src="img/header/aboutButton.png" style="max-height: 60px;"/></a>
             </div>
-            <div class="col-auto py-3 px-1">
+            <div class="col-auto py-3 px-1 d-none d-md-inline">
                 <a href="#" class="nav-link"><img src="img/header/updatesButton.png" style="max-height: 60px;"/></a>
            </div>
-           <div class="col-auto py-3 px-1">
+           <div class="col-auto py-3 px-1 d-none d-md-inline">
                 <a href="#" class="nav-link"><img src="img/header/contactButton.png" style="max-height: 60px;"/></a>
            </div>
         </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col py-3 px-1 d-md-none">
+              <a href="#" class="nav-link"><img src="img/header/aboutButton.png" style=" max-width: 100%;"/></a>
+            </div>
+            <div class="col py-3 px-1 d-md-none">
+              <a href="#" class="nav-link"><img src="img/header/updatesButton.png" style="max-width: 100%;"/></a>
+            </div>
+            <div class="col py-3 px-1 d-md-none">
+              <a href="#" class="nav-link"><img src="img/header/contactButton.png" style=" max-width: 100%;"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
       `;
     }
   }
