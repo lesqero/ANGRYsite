@@ -9,7 +9,7 @@ class Header extends HTMLElement {
       <header class="container-fluid bg-earth_c">
         <div class="row">
             <div class="col-auto d-none d-md-inline">
-                <a href="index.html" class="nav-link"><img src="img/header/angryhomebutton.png" style="max-height: 90px;"/></a>
+                <a href="index.html" class="nav-link"><img src="img/header/angryhomebutton.png" style="max-width:90%; max-height: 90px;"/></a>
             </div>
             <div class="col d-none d-md-inline">
                 

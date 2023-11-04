@@ -51,3 +51,13 @@ $font-family-custom-headings: "Anonymous Pro";
 h1, h2, h3, h4, h5, h6{
     font-family: $font-family-custom-headings 
 }
+
+.image-container {
+  position: relative;
+}
+
+.image2 {
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+}
