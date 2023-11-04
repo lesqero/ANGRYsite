@@ -9,6 +9,8 @@
     
 
     <link href="css/custom-main.min.css" rel="stylesheet">
+
+    <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
   
     <!-- component scripts -->
     <script src="components/header.js" type="text/javascript" defer></script>
@@ -83,17 +85,16 @@
           <div class="row">
             <div class="col-md">
               <img src="img/MainPage/newsletter.png" class="img-fluid p-4" alt="Newsletter">
-              <p class="col-md-8 fs-4">Want to hear more about us? sign up to our email list for regular updates</p>
               <div>
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control mb-3" style="max-width: 500px;" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Subscribe</button>
               </div>
             </div>
-            <div class="col-md-4">
-              <img src="img/angry-logo.png" class="img-fluid" alt="ANGRY logo">
+            <div class="col-md-3">
+              <img src="img/angry-logo.png" class="img-fluid" alt="ANGRY logo" style="max-height: auto;">
             </div>
           </div>
+
+          <script src='https://actionnetwork.org/widgets/v5/form/newsletter-list?format=js&source=widget'></script><div id='can-form-area-newsletter-list' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
         </div>
       </div>
 
