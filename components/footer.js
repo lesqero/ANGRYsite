@@ -17,22 +17,14 @@ class Footer extends HTMLElement {
               <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
             </ul>
           </div>
+          <div class="col d-none d-md-inline">
+          </div>
 
-          <div class="col-md">
+          <div class="col-6 col-md-4">
             <a href="contact.html"><img src="img/Contact/Email.png" class="img-fluid px-6" alt="Contact title"></a>
           </div>
 
-          <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Hear what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Subscribe</button>
-              </div>
-            </form>
-          </div>
+        
         </div>
     
       </footer>

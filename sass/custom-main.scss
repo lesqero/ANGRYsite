@@ -1,8 +1,10 @@
 //Custom variables
 // Customize the colours here or delete to keep as default
 $primary:       #cc5013;
+$primary_muted: #caa18d;
 $secondary:     #19947f;
 $tertiary:      #f6b609;
+$tertiary_muted:#f4dc98;
 /*$success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -27,6 +29,8 @@ $custom-theme-colors: (
   "earth_c":     $earth_c,
   "muted_y":     $muted_y,
   "beige_a":     $beige_a,
+  "primary_muted": $primary_muted,
+  "tertiary_muted": $tertiary_muted,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
