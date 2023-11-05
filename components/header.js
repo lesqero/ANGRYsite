@@ -8,8 +8,11 @@ class Header extends HTMLElement {
       
       <header class="container-fluid bg-earth_c">
         <div class="row">
-            <div class="col-auto d-none d-md-inline">
+            <div class="col-auto d-none d-md-inline px-0">
                 <a href="index.html" class="nav-link"><img src="img/header/angryhomebutton.png" style="max-width:90%; max-height: 90px;"/></a>
+            </div>
+            <div class="col d-none d-md-inline px-0">
+              <img src="img/angryLogo.png" class="img-fluid" alt="ANGRY logo" style="max-height: 90px;">
             </div>
             <div class="col d-none d-md-inline">
                 
