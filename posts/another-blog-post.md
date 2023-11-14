@@ -1,5 +1,5 @@
 ---
-title: This is my Title
+title: This is another blog post
 
 ---
 
