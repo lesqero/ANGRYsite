@@ -1,6 +1,6 @@
 ---
-title: This is another blog post
+title: This is a test post
 
 ---
 
-This is a paragraph of text. or not??
+This is a paragraph of text.
