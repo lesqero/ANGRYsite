@@ -38,15 +38,27 @@ $custom-theme-colors: (
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
+@font-face {
+  font-family: 'ANGRYfont';
+  src: url('../fonts/ANGRYfont.ttf');
+}
+
+$font-family-custom-headings: 'ANGRYfont', roboto;
+
+//$font-family-base: 'ANGRYfont', sans-serif;
+//$font-family-headings: 'Roboto';
+
+//$font-size-base: 15px;
+
 //Import bootstrap -- all variables must be above this
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
 //Set headings to use heading font
-h1, h2, h3, h4, h5, h6{
-    font-family: $font-family-custom-headings 
-}
+//h1, h2, h3, h4, h5, h6{
+//    font-family: $font-family-headings 
+//}
 
 .image-container {
   position: relative;
