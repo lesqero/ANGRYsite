@@ -13,7 +13,7 @@ class Footer extends HTMLElement {
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="/index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
               <li class="nav-item mb-2"><a href="/about.html" class="nav-link p-0 text-body-secondary">About</a></li>
-              <li class="nav-item mb-2"><a href="/updates/updates.html" class="nav-link p-0 text-body-secondary">Updates</a></li>
+              <li class="nav-item mb-2"><a href="/updates" class="nav-link p-0 text-body-secondary">Updates</a></li>
               <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
             </ul>
           </div>

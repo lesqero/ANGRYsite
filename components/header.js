@@ -9,7 +9,7 @@ class Header extends HTMLElement {
       <header class="container-fluid bg-earth_c">
         <div class="row">
             <div class="col-auto d-none d-md-inline px-0">
-                <a href="/" class="nav-link"><img src="/img/header/angryhomebutton.png" style="max-width:90%; max-height: 90px;"/></a>
+                <a href="/index.html" class="nav-link"><img src="/img/header/angryhomebutton.png" style="max-width:90%; max-height: 90px;"/></a>
             </div>
             <div class="col d-none d-md-inline px-0">
               <img src="/img/angryLogo.png" class="img-fluid" alt="ANGRY logo" style="max-height: 90px;">
@@ -18,13 +18,13 @@ class Header extends HTMLElement {
                 
             </div>
             <div class="col-auto py-3 px-1 d-none d-md-inline">
-                <a href="/about" class="nav-link"><img src="/img/header/aboutButton.png" style="max-height: 60px;"/></a>
+                <a href="/about.html" class="nav-link"><img src="/img/header/aboutButton.png" style="max-height: 60px;"/></a>
             </div>
             <div class="col-auto py-3 px-1 d-none d-md-inline">
                 <a href="/updates" class="nav-link"><img src="/img/header/updatesButton.png" style="max-height: 60px;"/></a>
            </div>
            <div class="col-auto py-3 px-1 d-none d-md-inline">
-                <a href="/contact" class="nav-link"><img src="/img/header/contactButton.png" style="max-height: 60px;"/></a>
+                <a href="/contact.html" class="nav-link"><img src="/img/header/contactButton.png" style="max-height: 60px;"/></a>
            </div>
         </div>
 
@@ -36,13 +36,13 @@ class Header extends HTMLElement {
         <div class="container">
           <div class="row">
             <div class="col py-3 px-1 d-md-none">
-              <a href="/about" class="nav-link"><img src="/img/header/aboutButton.png" style=" max-width: 100%;"/></a>
+              <a href="/about.html" class="nav-link"><img src="/img/header/aboutButton.png" style=" max-width: 100%;"/></a>
             </div>
             <div class="col py-3 px-1 d-md-none">
               <a href="/updates" class="nav-link"><img src="/img/header/updatesButton.png" style="max-width: 100%;"/></a>
             </div>
             <div class="col py-3 px-1 d-md-none">
-              <a href="/contact" class="nav-link"><img src="/img/header/contactButton.png" style=" max-width: 100%;"/></a>
+              <a href="/contact.html" class="nav-link"><img src="/img/header/contactButton.png" style=" max-width: 100%;"/></a>
             </div>
           </div>
         </div>
